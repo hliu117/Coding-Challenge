@@ -1,20 +1,32 @@
 # Name of the challenge goes here as well as any inputs required and potential return type
-def challenge_name():
-    pass
+def challenge_name(x,y):
+    return x, y
 
 if __name__ == "__main__":
-    pass
     # Check for test cases 
-    inputs1 = []
-    output1 = challenge_name()
-    answer1 = []
-    if answer1 == output1:
-        print("Test Case 1 is correct")
+    inputs = [(1,2),(5,6)]
+    answers = [(1,2),(5,6)]
 
-    # Do this maybe like 2-3 times 
+    outputs = []
+    for inp in inputs:
+        try:
+            outputs.append(challenge_name(*inp))
+        except Exception as e:
+            print("ERROR:",e)
+            outputs.append(None)
 
-    # If everything is correct then 
-    print("Task Completed")
+    completed = True
+    for i, out in enumerate(outputs):
+        if out == answers[i]:
+            print("Test Case", i+1, "is correct")
+        else:
+            print("Test Case", i+1, "is incorrect")
+            print("Expected:", answers[i])
+            print("Your Output:", out)
+            completed = False
+        print("\n")
 
-    # Else: 
-    print("Incorrect")
+    if completed:
+        print("Task Completed")
+    else: 
+        print("Task Not Complete")
