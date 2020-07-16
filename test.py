@@ -1,8 +1,9 @@
-# Name of the challenge goes here as well as any inputs required and potential return type
-def challenge_name(x,y):
+# This file is to test that python is working properly on the participants' machines
+def test(x,y):
     return x, y
 
 if __name__ == "__main__":
+    print("Testing to see if python has been installed properly")
     # Check for test cases 
     inputs = [(1,2),(5,6)]
     answers = [(1,2),(5,6)]
@@ -10,7 +11,7 @@ if __name__ == "__main__":
     outputs = []
     for inp in inputs:
         try:
-            outputs.append(challenge_name(*inp))
+            outputs.append(test(*inp))
         except Exception as e:
             print("ERROR:",e)
             outputs.append(None)
@@ -28,5 +29,7 @@ if __name__ == "__main__":
 
     if completed:
         print("Task Completed")
+
+        print("You are ready to go")
     else: 
         print("Task Not Complete")
