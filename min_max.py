@@ -11,15 +11,15 @@
 #   - The number of instances the smallest number occurs in the list    
 def min_max(x):
     # Write your code here
-    try:
-        return max(x),x.count(max(x)),min(x),x.count(min(x))
-    except:
-        return 100,2,99,1
+    # try:
+    #     return max(x),x.count(max(x)),min(x),x.count(min(x))
+    # except:
+    #     return 100,2,99,1
     #
 
 if __name__ == "__main__":
     # Test Cases
-    inputs = [[1,2,3,4,5,6,7,8,9,10],[10,10,50,60,10,10,100,100,50],['abc',100,99,100]]
+    inputs = [([1,2,3,4,5,6,7,8,9,10]),([10,10,50,60,10,10,100,100,50]),(['abc',100,99,100])]
     answers = [(10,1,1,1),(100,2,10,4),(100,2,99,1)]
 
     outputs = []
