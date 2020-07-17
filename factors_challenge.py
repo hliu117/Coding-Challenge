@@ -1,7 +1,15 @@
-# return all factor pairs of a given number, is the number is prime just return "prime":
+# The Factors Challenge:
+# Return all factor pairs of a given number, is the number is prime just return "prime":
 # return a list of factor pairs, where each factor pair is a tuple of two numbers i.e. [(a,b),(c,d),(e,f),...]
 # each tuple should have the two numbers in order i.e. (2,3) not (3,2)
 # the list should be ordered lexographically, so in ascending order of the first number of each tuple
+
+# Complete the function Factorize
+# Inputs:
+#   - x, the number to be factorised
+
+# Outputs in the order specified
+#   - A list of factor pairs
 def Factorize(x):
     factor_pairs = []
     y = 2
