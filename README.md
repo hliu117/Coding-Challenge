@@ -12,7 +12,7 @@ On the github page you have been provided please navigate to the clone button an
 
 Please refer to the picture below if you are having any issues
 
-(https://github.com/hliu117/Coding-Challenge/blob/master/images/download.png)
+[Picture](https://github.com/hliu117/Coding-Challenge/blob/master/images/download.png)
 
 ## Before starting the challenges
 
