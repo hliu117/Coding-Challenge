@@ -12,6 +12,8 @@ On the github page you have been provided please navigate to the clone button an
 
 Please refer to the picture below if you are having any issues
 
+(https://github.com/hliu117/Coding-Challenge/blob/master/images/download.png)
+
 ## Before starting the challenges
 
 Once you have python installed, open a terminal in the folder containing the files and run the test file by typing the following command:
