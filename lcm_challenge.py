@@ -1,4 +1,13 @@
-# Name of the challenge goes here as well as any inputs required and potential return type
+# The lcm challenge:
+# Given two integers x and y, find the lowest common multiple of these two numbers
+# Complete the function lcm
+# Inputs:
+#   - x an integer
+#   - y an integer
+
+# Outputs in the order specified
+#   - lcm the lowest common multiple of the two input numbers 
+
 def lcm(x,y):
     if x < y:
         x, y = y, x
