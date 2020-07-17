@@ -6,7 +6,7 @@
 #   - y an integer
 
 # Outputs in the order specified
-#   - lcm the lowest common multiple of the two input numbers 
+#   - lcm, the lowest common multiple of the two input numbers 
 
 def lcm(x,y):
     if x < y:
@@ -42,7 +42,7 @@ if __name__ == "__main__":
             print("Expected:", answers[i])
             print("Your Output:", out)
             completed = False
-        print("\n")
+        print("")
 
     if completed:
         print("Task Completed")
