@@ -1,16 +1,34 @@
-# Name of the challenge goes here as well as any inputs required and potential return type
-def challenge_name(x,y):
-    return x, y
+# The lcm challenge:
+# Given two integers x and y, find the lowest common multiple of these two numbers
+
+# Complete the function lcm
+# Inputs:
+#   - x an integer
+#   - y an integer
+
+# Outputs in the order specified
+#   - lcm, the lowest common multiple of the two input numbers 
+
+def lcm(x,y):
+    if x < y:
+        x, y = y, x
+    lcm = x
+    while True:
+        if lcm % y == 0:
+            break
+        else:
+            lcm = lcm + x
+    return lcm
 
 if __name__ == "__main__":
     # Check for test cases 
-    inputs = [(1,2),(5,6)]
-    answers = [(1,2),(5,6)]
+    inputs = [(1,2),(8,2),(5,6),(55,51)]
+    answers = [2,8,30,2805]
 
     outputs = []
     for inp in inputs:
         try:
-            outputs.append(challenge_name(*inp))
+            outputs.append(lcm(*inp))
         except Exception as e:
             print("ERROR:",e)
             outputs.append(None)
@@ -25,7 +43,7 @@ if __name__ == "__main__":
             print("Expected:", answers[i])
             print("Your Output:", out)
             completed = False
-        print("\n")
+        print("")
 
     if completed:
         print("Task Completed")
