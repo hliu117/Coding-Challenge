@@ -1,5 +1,6 @@
 # The max min challenge:
 # Given a list of items; find the largest and smallest integer in a list. 
+
 # Complete the function min_max 
 # Inputs:
 #   - List of items

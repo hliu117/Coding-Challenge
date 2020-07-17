@@ -1,5 +1,6 @@
 # The lcm challenge:
 # Given two integers x and y, find the lowest common multiple of these two numbers
+
 # Complete the function lcm
 # Inputs:
 #   - x an integer

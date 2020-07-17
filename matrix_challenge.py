@@ -1,4 +1,13 @@
-# Name of the challenge goes here as well as any inputs required and potential return type
+# The matrix challenge:
+# Given an integer n, complete the function MatrixA such that you return a n x n matrix. 
+# A(i,j) = (i + j) mod n, where i,j start at 1
+
+# Complete the function MatrixA
+# Inputs:
+#   - n, the side of the matrix 
+
+# Outputs in the order specified
+#   - A numpy array of size n x n which meets the conditions mentioned above.
 import numpy as np
 
 def MatrixA(n):
