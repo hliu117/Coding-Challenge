@@ -11,10 +11,7 @@
 #   - The number of instances the smallest number occurs in the list    
 def min_max(x):
     # Write your code here
-    try:
-        return max(x),x.count(max(x)),min(x),x.count(min(x))
-    except:
-        return 100,2,99,1
+
     #
 
 if __name__ == "__main__":
