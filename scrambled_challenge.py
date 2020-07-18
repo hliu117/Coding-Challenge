@@ -25,7 +25,7 @@ if __name__ == "__main__":
             print("Expected:", answers[i])
             print("Your Output:", out)
             completed = False
-        print("")
+        print("\n")
 
     if completed:
         print("Task Completed")
