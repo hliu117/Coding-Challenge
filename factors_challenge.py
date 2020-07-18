@@ -3,6 +3,7 @@
 # return a list of factor pairs, where each factor pair is a tuple of two numbers i.e. [(a,b),(c,d),(e,f),...]
 # each tuple should have the two numbers in order i.e. (2,3) not (3,2)
 # the list should be ordered lexographically, so in ascending order of the first number of each tuple
+# also (1,x) should not be in the list, find all factor pairs that are not the trivial case
 
 # Complete the function Factorize
 # Inputs:
