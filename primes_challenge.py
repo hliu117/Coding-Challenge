@@ -1,7 +1,7 @@
 # Primes Challenge:
 # Given a number n, return a list, in order, of all the prime numbers that are less than n
 
-# Complete the function Factorize
+# Complete the function findPrimes
 # Inputs:
 #   - n, find all primes that are less than this number
 
