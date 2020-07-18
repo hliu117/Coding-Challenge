@@ -20,6 +20,10 @@ Once you have python installed, open a terminal in the folder containing the fil
 python3 test.py
 ```
 
+## Challenge Order
+
+TBD
+
 ## Good Luck and Have Fun!!
 
 ## Creators
