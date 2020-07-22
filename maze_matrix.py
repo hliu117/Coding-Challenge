@@ -1,7 +1,7 @@
 # Name of the challenge goes here as well as any inputs required and potential return type
 import numpy as np
 
-def MazeMatrix(n):
+def mazeMatrix(n):
     A = np.ones((n,n))
     i,j,x = 0,0,2
     direction = "right"
@@ -39,7 +39,7 @@ if __name__ == "__main__":
     outputs = []
     for inp in inputs:
         try:
-            outputs.append(MazeMatrix(inp))
+            outputs.append(mazeMatrix(inp))
         except Exception as e:
             print("ERROR:",e)
             outputs.append(None)
