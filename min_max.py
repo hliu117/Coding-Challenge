@@ -1,6 +1,9 @@
 # The max min challenge:
 # Given a list of items; find the largest and smallest integer in a list. 
 
+# Example
+# [1,2,3,4,5,6,7,8,9,10] return 10,1,1,1
+
 # Complete the function min_max 
 # Inputs:
 #   - List of items
@@ -12,17 +15,40 @@
 #   - The number of instances the smallest number occurs in the list    
 def min_max(x):
     # Write your code here
-    try:
-        return max(x),x.count(max(x)),min(x),x.count(min(x))
-    except:
-        return 100,2,99,1
+
+    # Set initial values to the first int
+    for i in x:
+        if(type(i) == int):
+            min = i
+            max = i
+            min_count = 0
+            max_count = 0
+            break
+
+    for i in x:
+        print(i)
+        print(type(i))
+        if type(i) == int:
+            if i > max:
+                max = i
+                max_count = 1
+            elif i == max:
+                max_count += 1
+
+            if i < min:
+                min = i
+                min_count = 1
+            elif i == min:
+                min_count += 1
+
+    return max,max_count,min,min_count
     #
 
 if __name__ == "__main__":
     print("Min Max Challenge")
     # Test Cases
-    inputs = [([1,2,3,4,5,6,7,8,9,10]),([10,10,50,60,10,10,100,100,50]),(['abc',100,99,100])]
-    answers = [(10,1,1,1),(100,2,10,4),(100,2,99,1)]
+    inputs = [[1,2,3,4,5,6,7,8,9,10],[10,10,50,60,10,10,100,100,50],[100,'abc',100,99,100],['abc',100,90,100,90]]
+    answers = [(10,1,1,1),(100,2,10,4),(100,3,99,1),(100,2,90,2)]
 
     outputs = []
     for inp in inputs:
