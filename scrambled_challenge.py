@@ -1,7 +1,11 @@
 # The Scrambled challenge:
 # Given two words a and b return True if b is a perfect scramble of the word a. 
 # A perfect scramble means that both words have to be the same length and all letters of the 
-# word b are used in the word a
+# word b are used in the word a. The check for scramble is not case sensitive.
+
+# Example:
+# hjos is a perfect scramble of josh -> return True
+# greater is not a perfect scramble of great -> return False
 
 # Complete the function scrambled
 # Inputs:
@@ -11,13 +15,19 @@
 # Outputs in the order specified
 #   - A boolean True or false, depending whether or not the word b is a scrambled version of the word a
 def scrambled(a,b):
-    pass
+    scramble = True
+    a = a.lower()
+    b = b.lower()
+    for char in b:
+        if b.count(char) != a.count(char):
+            scramble = False
+    return scramble
 
 if __name__ == "__main__":
     print("Scrambled Challenge")
     # Check for test cases 
-    inputs = [("great","greater"),("josh","hsoj"),("henry","yenry")]
-    answers = [False,True,False]
+    inputs = [("hello","hello"),("great","greater"),("josh","hjos"),("henry","yenry"),("Henry","yrneh")]
+    answers = [True,False,True,False,True]
 
     outputs = []
     for inp in inputs:
