@@ -11,7 +11,7 @@
 
 # Outputs in the order specified
 #   - A list of factor pairs
-def Factorize(x):
+def factorize(x):
     factor_pairs = []
     y = 2
     while y <= x**(1/2):
@@ -31,7 +31,7 @@ if __name__ == "__main__":
     outputs = []
     for inp in inputs:
         try:
-            outputs.append(Factorize(inp))
+            outputs.append(factorize(inp))
         except Exception as e:
             print("ERROR:",e)
             outputs.append(None)
