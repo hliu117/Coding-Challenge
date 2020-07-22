@@ -15,6 +15,8 @@
 # Outputs in the order specified
 #   - A boolean True or false, depending whether or not the word b is a scrambled version of the word a
 def scrambled(a,b):
+    if len(a) != len(b):
+        return False
     scramble = True
     a = a.lower()
     b = b.lower()
@@ -26,8 +28,8 @@ def scrambled(a,b):
 if __name__ == "__main__":
     print("Scrambled Challenge")
     # Check for test cases 
-    inputs = [("hello","hello"),("great","greater"),("josh","hjos"),("henry","yenry"),("Henry","yrneh")]
-    answers = [True,False,True,False,True]
+    inputs = [("hello","hello"),("great","greater"),("josh","hjos"),("henry","yenry"),("Henry","yrneh"),("roomy","oom")]
+    answers = [True,False,True,False,True,False]
 
     outputs = []
     for inp in inputs:
