@@ -4,7 +4,7 @@
 # Example 1
 # [1,2,4] -> return 7
 # Example 2
-# [4,2] -> return 0
+# [4,2] -> return -1
 
 # Complete the function scrambled
 # Inputs:
