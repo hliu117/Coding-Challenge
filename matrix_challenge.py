@@ -10,7 +10,7 @@
 #   - A numpy array of size n x n which meets the conditions mentioned above.
 import numpy as np
 
-def MatrixA(n):
+def matrixA(n):
     A = np.zeros((n,n))
     for i in range(n):
         for j in range(n):
@@ -26,7 +26,7 @@ if __name__ == "__main__":
     outputs = []
     for inp in inputs:
         try:
-            outputs.append(MatrixA(inp))
+            outputs.append(matrixA(inp))
         except Exception as e:
             print("ERROR:",e)
             outputs.append(None)
