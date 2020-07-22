@@ -18,15 +18,15 @@ def largest_triangle(A):
         for i in range(len(A) - 3, -1, -1):
             if (A[i] + A[i+1]) > A[i+2]:
                 return A[i] + A[i+1] + A[i+2]
-        return None
+        return -1
     else:
-        return None
+        return -1
 
 if __name__ == "__main__":
     print("Largest Triangle Challenge")
     # Check for test cases
     inputs = [[1,2,3,4],[1,2,3],[4,2,3,1],[0,1],[2,3,3,6]]
-    answers = [9,None,9,None,8]
+    answers = [9,-1,9,-1,8]
 
     outputs = []
     for inp in inputs:
