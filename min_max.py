@@ -26,8 +26,6 @@ def min_max(x):
             break
 
     for i in x:
-        print(i)
-        print(type(i))
         if type(i) == int:
             if i > max:
                 max = i
