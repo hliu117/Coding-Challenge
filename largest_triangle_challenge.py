@@ -1,5 +1,5 @@
 # The Largest Triangle challenge:
-# Given a list of integers, return area of the largest triangle that can be made using those integers. Each integer in the list can only be used once. If no triangle can be created then you must return 0. 
+# Given a list of integers, return area of the largest triangle that can be made using those integers. Each integer in the list can only be used once. If no triangle can be created then you should return None. 
 
 # Example 1
 # [1,2,3] -> return 6
@@ -18,15 +18,15 @@ def largest_triangle(A):
         for i in range(len(A) - 3, -1, -1):
             if (A[i] + A[i+1]) > A[i+2]:
                 return A[i] * A[i+1] * A[i+2]
-        return 0
+        return None
     else:
-        return 0
+        return None
 
 if __name__ == "__main__":
     print("Largest Triangle Challenge")
     # Check for test cases
     inputs = [[1,2,3,4],[1,2,3],[4,2,3,1],[0,1],[2,3,3,6]]
-    answers = [24,0,24,0,18]
+    answers = [24,None,24,None,18]
 
     outputs = []
     for inp in inputs:
