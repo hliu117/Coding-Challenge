@@ -21,6 +21,7 @@ def lcm(x,y):
     return lcm
 
 if __name__ == "__main__":
+    print("LCM Challenge")
     # Check for test cases 
     inputs = [(1,2),(8,2),(5,6),(55,51)]
     answers = [2,8,30,2805]
@@ -34,7 +35,7 @@ if __name__ == "__main__":
             outputs.append(None)
 
     completed = True
-    print("\n")
+    print("")
     for i, out in enumerate(outputs):
         if out == answers[i]:
             print("Test Case", i+1, "is correct")

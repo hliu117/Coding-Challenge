@@ -18,6 +18,7 @@ def MatrixA(n):
     return A
 
 if __name__ == "__main__":
+    print("Matrix Challenge")
     # Check for test cases 
     inputs = [2,3,5]
     answers = [np.array([[0., 1.],[1., 0.]]),np.array([[2., 0., 1.],[0., 1., 2.],[1., 2., 0.]]),np.array([[2., 3., 4., 0., 1.],[3., 4., 0., 1., 2.],[4., 0., 1., 2., 3.],[0., 1., 2., 3., 4.],[1., 2., 3., 4., 0.]])]
@@ -31,7 +32,7 @@ if __name__ == "__main__":
             outputs.append(None)
 
     completed = True
-    print("\n")
+    print("")
     for i, out in enumerate(outputs):
         if (out == answers[i]).all():
             print("Test Case", i+1, "is correct")

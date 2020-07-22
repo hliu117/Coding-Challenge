@@ -23,6 +23,7 @@ def Factorize(x):
     return factor_pairs
 
 if __name__ == "__main__":
+    print("Factors Challenge")
     # Check for test cases 
     inputs = [1,3,6,16,36]
     answers = ["prime","prime",[(2, 3)],[(2, 8), (4, 4)],[(2, 18), (3, 12), (4, 9), (6, 6)]]
@@ -36,7 +37,7 @@ if __name__ == "__main__":
             outputs.append(None)
 
     completed = True
-    print("\n")
+    print("")
     for i, out in enumerate(outputs):
         if out == answers[i]:
             print("Test Case", i+1, "is correct")

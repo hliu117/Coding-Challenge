@@ -22,6 +22,7 @@ def running_sum(nums):
     #
 
 if __name__ == "__main__":
+    print("Running Sum Challenge")
     # Check for test cases 
     inputs = [[1,2,3,4,5,6,7,8,9,10],[0,0,0,0,0,-1,-1,50],[1,-1,1,-1,1,-1]]
     answers = [[1,3,6,10,15,21,28,36,45,55],[0,0,0,0,0,-1,-2,48],[1,0,1,0,1,0]]
@@ -35,7 +36,7 @@ if __name__ == "__main__":
             outputs.append(None)
 
     completed = True
-    print("\n")
+    print("")
     for i, out in enumerate(outputs):
         if out == answers[i]:
             print("Test Case", i+1, "is correct")

@@ -23,8 +23,8 @@ def largest_triangle(A):
         return 0
 
 if __name__ == "__main__":
-    # Check for test cases 
     print("Largest Triangle Challenge")
+    # Check for test cases
     inputs = [[1,2,3,4],[1,2,3],[4,2,3,1],[0,1],[2,3,3,6]]
     answers = [24,0,24,0,18]
 

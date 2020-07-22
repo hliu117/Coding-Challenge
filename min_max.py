@@ -19,6 +19,7 @@ def min_max(x):
     #
 
 if __name__ == "__main__":
+    print("Min Max Challenge")
     # Test Cases
     inputs = [([1,2,3,4,5,6,7,8,9,10]),([10,10,50,60,10,10,100,100,50]),(['abc',100,99,100])]
     answers = [(10,1,1,1),(100,2,10,4),(100,2,99,1)]
@@ -32,6 +33,7 @@ if __name__ == "__main__":
             outputs.append(None)
 
     completed = True
+    print("")
     for i, out in enumerate(outputs):
         if out == answers[i]:
             print("Test Case", i+1, "is correct")

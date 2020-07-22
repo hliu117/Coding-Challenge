@@ -17,6 +17,7 @@ if __name__ == "__main__":
             outputs.append(None)
 
     completed = True
+    print("")
     for i, out in enumerate(outputs):
         if out == answers[i]:
             print("Test Case", i+1, "is correct")

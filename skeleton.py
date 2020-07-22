@@ -3,6 +3,7 @@ def challenge_name(x,y):
     return x, y
 
 if __name__ == "__main__":
+    print("Enter Challenge Name")
     # Check for test cases 
     inputs = [(1,2),(5,6)]
     answers = [(1,2),(5,6)]
@@ -16,7 +17,7 @@ if __name__ == "__main__":
             outputs.append(None)
 
     completed = True
-    print("\n")
+    print("")
     for i, out in enumerate(outputs):
         if out == answers[i]:
             print("Test Case", i+1, "is correct")

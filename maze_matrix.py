@@ -31,6 +31,7 @@ def MazeMatrix(n):
     return A
 
 if __name__ == "__main__":
+    print("Maze Matrix Challenge")
     # Check for test cases 
     inputs = [1,4,5]
     answers = [np.array([[1.]]),np.array([[1.,2.,9.,10.],[4.,3.,8.,11.],[5.,6.,7.,12.],[16.,15.,14.,13.]]),np.array([[ 1.,2.,9.,10.,25.],[ 4.,3.,8.,11.,24.],[ 5.,6.,7.,12.,23.],[16.,15.,14.,13.,22.],[17.,18.,19.,20.,21.]])]
@@ -44,7 +45,7 @@ if __name__ == "__main__":
             outputs.append(None)
 
     completed = True
-    print("\n")
+    print("")
     for i, out in enumerate(outputs):
         if (out == answers[i]).all():
             print("Test Case", i+1, "is correct")

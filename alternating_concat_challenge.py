@@ -22,6 +22,7 @@ def alternateConcat(a,b):
     return new_list
 
 if __name__ == "__main__":
+    print("Alternating Concat Challenge")
     # Check for test cases 
     inputs = [([1,2],[3,4]),([1,2,3],['a','b','c']),([1,2,3,4,5,6],['a','b','c']),([1,2,3],['a','b','c','d','e','f'])]
     answers = [[1, 3, 2, 4],[1, 'a', 2, 'b', 3, 'c'],[1, 'a', 2, 'b', 3, 'c', 4, 5, 6],[1, 'a', 2, 'b', 3, 'c', 'd', 'e', 'f']]
@@ -35,7 +36,7 @@ if __name__ == "__main__":
             outputs.append(None)
 
     completed = True
-    print("\n")
+    print("")
     for i, out in enumerate(outputs):
         if out == answers[i]:
             print("Test Case", i+1, "is correct")

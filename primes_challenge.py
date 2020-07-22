@@ -22,6 +22,7 @@ def findPrimes(n):
     return primes
 
 if __name__ == "__main__":
+    print("Primes Challenge")
     # Check for test cases 
     inputs = [1,2,10,50,100]
     answers = [[],[],[2,3,5,7],[2,3,5,7,11,13,17,19,23,29,31,37,41,43,47],[2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97]]
@@ -35,7 +36,7 @@ if __name__ == "__main__":
             outputs.append(None)
 
     completed = True
-    print("\n")
+    print("")
     for i, out in enumerate(outputs):
         if out == answers[i]:
             print("Test Case", i+1, "is correct")

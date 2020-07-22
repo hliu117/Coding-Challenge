@@ -14,6 +14,7 @@ def scrambled(a,b):
     pass
 
 if __name__ == "__main__":
+    print("Scrambled Challenge")
     # Check for test cases 
     inputs = [("great","greater"),("josh","hsoj"),("henry","yenry")]
     answers = [False,True,False]
@@ -27,7 +28,7 @@ if __name__ == "__main__":
             outputs.append(None)
 
     completed = True
-    print("\n")
+    print("")
     for i, out in enumerate(outputs):
         if out == answers[i]:
             print("Test Case", i+1, "is correct")
