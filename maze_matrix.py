@@ -54,7 +54,7 @@ if __name__ == "__main__":
             print("Expected:\n", answers[i])
             print("Your Output:\n", out)
             completed = False
-        print("\n")
+        print("")
 
     if completed:
         print("Task Completed")
