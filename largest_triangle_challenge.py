@@ -1,5 +1,5 @@
 # The Largest Triangle challenge:
-# Given a list of integers, return area of the largest triangle that can be made using those integers. Each integer in the list can only be used once. If no triangle can be created then you should return None. 
+# Given a list of integers, return perimeter of the largest triangle that can be made using those integers. Each integer in the list can only be used once. If no triangle can be created then you should return None. 
 
 # Example 1
 # [1,2,3] -> return 6
@@ -11,13 +11,13 @@
 #   - A, List[int] - Note: This list is not ordered in any particular way 
 
 # Outputs in the order specified
-#   - the area of the largest triangle that can be created
+#   - the perimeter of the largest triangle that can be created
 def largest_triangle(A):
     if len(A) >= 3:
         A.sort()
         for i in range(len(A) - 3, -1, -1):
             if (A[i] + A[i+1]) > A[i+2]:
-                return A[i] * A[i+1] * A[i+2]
+                return A[i] + A[i+1] + A[i+2]
         return None
     else:
         return None
@@ -26,7 +26,7 @@ if __name__ == "__main__":
     print("Largest Triangle Challenge")
     # Check for test cases
     inputs = [[1,2,3,4],[1,2,3],[4,2,3,1],[0,1],[2,3,3,6]]
-    answers = [24,None,24,None,18]
+    answers = [9,None,9,None,8]
 
     outputs = []
     for inp in inputs:
