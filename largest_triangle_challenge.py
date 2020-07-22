@@ -2,7 +2,7 @@
 # Given a list of integers, return perimeter of the largest triangle that can be made using those integers. Each integer in the list can only be used once. If no triangle can be created then you should return None. 
 
 # Example 1
-# [1,2,3] -> return 6
+# [1,2,4] -> return 7
 # Example 2
 # [4,2] -> return 0
 
