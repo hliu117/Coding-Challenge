@@ -23,6 +23,19 @@ Once you have python installed, open a terminal in the folder containing the fil
 python3 test.py
 ```
 
+## Challenge Order
+
+1. 
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+
 ## Good Luck and Have Fun!!
 
 ## Creators
