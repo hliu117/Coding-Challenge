@@ -1,11 +1,18 @@
-# The even challenge, you are given an integer x and you must return True if x is even and False if x is odd
+# The Even Challenge
+# Given an integer x and you must return True if x is even and False if x is odd
+
+# Inputs
+#   - An integer x 
+
+# Outputs
+#   - True or False depending if the number is even or not
 def is_even(x):
     if x % 2 == 0:
         return True 
     return False
 
 if __name__ == "__main__":
-    print("Is Even challenge")
+    print("Is Even Challenge")
     # Check for test cases 
     inputs = [2,3,11,12,26]
     answers = [True,False,False,True,True]
