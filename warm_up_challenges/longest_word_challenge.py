@@ -20,7 +20,7 @@ def longest_word(A):
     #
 
 if __name__ == "__main__":
-    print("Is Even Challenge")
+    print("Longest Word Challenge Challenge")
     # Check for test cases 
     inputs = [["hello","my","name","is","bob"],["this","coding","challenge","is","super","fun"],["thanks","henry","and","josh"]]
     answers = [5,9,6]
