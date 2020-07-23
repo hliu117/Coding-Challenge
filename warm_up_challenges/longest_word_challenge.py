@@ -6,18 +6,20 @@
 
 # Outputs
 #   - An integer representing the length of the longest word
-def longest_word(x):
+def longest_word(A):
     # Write your code here:
-    if x % 2 == 0:
-        return True 
-    return False
+    max = 0
+    for words in A:
+        if len(words) > max:
+            max = len(words)
+    return max
     #
 
 if __name__ == "__main__":
     print("Is Even Challenge")
     # Check for test cases 
-    inputs = [2,3,11,12,26]
-    answers = [True,False,False,True,True]
+    inputs = [["hello","my","name","is","bob"],["this","coding","challenge","is","super","fun"],["thanks","henry","and","josh"]]
+    answers = [5,9,6]
 
     outputs = []
     for inp in inputs:
