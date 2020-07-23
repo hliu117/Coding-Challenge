@@ -1,8 +1,12 @@
 # The Longest Word Challenge
 # Given an list of words, return the length of the longest word
 
+# Example:
+# A = ["hello","my","name","is","bob"]
+# Return 5 cause hello is the longest word and it is of length 5
+
 # Inputs
-#   - A List of words (Strings) e.g. ["hello","my","name","is","bob"]
+#   - A List of words (Strings) 
 
 # Outputs
 #   - An integer representing the length of the longest word
