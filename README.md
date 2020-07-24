@@ -23,18 +23,40 @@ Once you have python installed, open a terminal in the folder containing the fil
 python3 test.py
 ```
 
-## Challenge Order
+## Challenge Tier List
 
-1. 
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+### Pre-School
+
+- average 
+- even
+- longest word
+
+### Easy
+
+- skipping product
+- running sum
+
+### Moderate
+
+- scrambled
+- alternating concat
+- min/max
+- matrix
+
+### Intermediate 
+
+- dup number
+- largest triangle
+
+### Hardish
+
+- factors
+- lcm
+- primes
+
+### Epic
+
+- Maze Matrix
 
 ## Good Luck and Have Fun!!
 
