@@ -15,15 +15,9 @@
 # Outputs in the order specified
 #   - A boolean True or false, depending whether or not the word b is a scrambled version of the word a
 def scrambled(a,b):
-    if len(a) != len(b):
-        return False
-    scramble = True
-    a = a.lower()
-    b = b.lower()
-    for char in b:
-        if b.count(char) != a.count(char):
-            scramble = False
-    return scramble
+    # Write your code here:
+
+    #
 
 if __name__ == "__main__":
     print("Scrambled Challenge")

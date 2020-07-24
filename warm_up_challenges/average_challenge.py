@@ -7,7 +7,9 @@
 # Outputs
 #   - the average of the array
 def average(A):
-    return sum(A)/len(A)
+    # Write your code here:
+
+    #
 
 if __name__ == "__main__":
     print("Average Challenge")

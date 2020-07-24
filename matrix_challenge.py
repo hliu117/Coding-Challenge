@@ -11,11 +11,9 @@
 import numpy as np
 
 def matrixA(n):
-    A = np.zeros((n,n))
-    for i in range(n):
-        for j in range(n):
-            A[i,j] = (i+1+j+1)%n
-    return A
+    # Write your code here:
+
+    #
 
 if __name__ == "__main__":
     print("Matrix Challenge")

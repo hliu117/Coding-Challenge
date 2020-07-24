@@ -10,15 +10,9 @@
 #   - lcm, the lowest common multiple of the two input numbers 
 
 def lcm(x,y):
-    if x < y:
-        x, y = y, x
-    lcm = x
-    while True:
-        if lcm % y == 0:
-            break
-        else:
-            lcm = lcm + x
-    return lcm
+    # Write your code here:
+
+    #
 
 if __name__ == "__main__":
     print("LCM Challenge")

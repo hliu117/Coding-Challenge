@@ -8,18 +8,9 @@
 # Outputs in the order specified
 #   - a list of primes less than n, in order smallest to largest
 def findPrimes(n):
-    primes = []
-    number = 2
-    while number < n:
-        is_prime = True
-        for p in primes:
-            if number%p == 0:
-                is_prime = False
-                break
-        if is_prime:
-            primes.append(number)
-        number += 1
-    return primes
+    # Write your code here:
+
+    #
 
 if __name__ == "__main__":
     print("Primes Challenge")

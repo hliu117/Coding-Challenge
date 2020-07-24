@@ -10,21 +10,9 @@
 # Outputs
 #   - Duplicate number in the list of ints 
 def findDuplicate(nums):
-    # Find the intersection point of the two runners.
-    tortoise = hare = nums[0]
-    while True:
-        tortoise = nums[tortoise]
-        hare = nums[nums[hare]]
-        if tortoise == hare:
-            break
-    
-    # Find the "entrance" to the cycle.
-    tortoise = nums[0]
-    while tortoise != hare:
-        tortoise = nums[tortoise]
-        hare = nums[hare]
-    
-    return hare
+    # Write your code here
+
+    #
 
 if __name__ == "__main__":
     print("Duplicate Number Challenge")

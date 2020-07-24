@@ -2,33 +2,9 @@
 import numpy as np
 
 def mazeMatrix(n):
-    A = np.ones((n,n))
-    i,j,x = 0,0,2
-    direction = "right"
-    while x <= n*n:
-        if direction == "right":
-            j += 1
-            if i == 0:
-                direction = "down"
-            elif i == j:
-                direction = "up"
-        elif direction == "down":
-            i += 1
-            if j == 0:
-                direction = "right"
-            elif i == j:
-                direction = "left"
-        elif direction == "left":
-            j -= 1
-            if j == 0:
-                direction = "down"
-        elif direction == "up":
-            i -= 1
-            if i == 0:
-                direction = "right"
-        A[i,j] = x
-        x += 1
-    return A
+    # Write your code here:
+
+    #
 
 if __name__ == "__main__":
     print("Maze Matrix Challenge")

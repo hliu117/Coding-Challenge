@@ -10,15 +10,8 @@
 # Outputs in the order specified
 #   - a list of integers containing the running sum of the input list of integers 
 def running_sum(nums):
-    # Write your code here
-    output = [None]*len(nums)
-        
-    sum = 0
-    
-    for x in range(len(nums)):
-        sum = sum + nums[x]
-        output[x] = sum
-    return output
+    # Write your code here:
+
     #
 
 if __name__ == "__main__":

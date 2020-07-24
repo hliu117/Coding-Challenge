@@ -11,15 +11,9 @@
 # Outputs in the order specified
 #   - the single combined list
 def alternateConcat(a,b):
-    new_list = []
-    n = min(len(a),len(b))
-    for i in range(n):
-        new_list.extend([a[i],b[i]])
-    if len(a) > len(b):
-        new_list.extend(a[n:])
-    elif len(b) > len(a):
-        new_list.extend(b[n:])
-    return new_list
+    # Write your code here
+
+    #
 
 if __name__ == "__main__":
     print("Alternating Concat Challenge")

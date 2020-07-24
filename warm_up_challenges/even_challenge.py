@@ -7,9 +7,9 @@
 # Outputs
 #   - True or False depending if the number is even or not
 def is_even(x):
-    if x % 2 == 0:
-        return True 
-    return False
+    # Write your code here:
+
+    #
 
 if __name__ == "__main__":
     print("Is Even Challenge")

@@ -14,32 +14,8 @@
 #   - The smallest number in the list 
 #   - The number of instances the smallest number occurs in the list    
 def min_max(x):
-    # Write your code here
+    # Write your code here:
 
-    # Set initial values to the first int
-    for i in x:
-        if(type(i) == int):
-            min = i
-            max = i
-            min_count = 0
-            max_count = 0
-            break
-
-    for i in x:
-        if type(i) == int:
-            if i > max:
-                max = i
-                max_count = 1
-            elif i == max:
-                max_count += 1
-
-            if i < min:
-                min = i
-                min_count = 1
-            elif i == min:
-                min_count += 1
-
-    return max,max_count,min,min_count
     #
 
 if __name__ == "__main__":

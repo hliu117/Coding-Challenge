@@ -12,11 +12,7 @@
 #   - An integer representing the length of the longest word
 def longest_word(A):
     # Write your code here:
-    max = 0
-    for words in A:
-        if len(words) > max:
-            max = len(words)
-    return max
+
     #
 
 if __name__ == "__main__":

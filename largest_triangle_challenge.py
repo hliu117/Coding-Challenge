@@ -13,14 +13,9 @@
 # Outputs in the order specified
 #   - the perimeter of the largest triangle that can be created
 def largest_triangle(A):
-    if len(A) >= 3:
-        A.sort()
-        for i in range(len(A) - 3, -1, -1):
-            if (A[i] + A[i+1]) > A[i+2]:
-                return A[i] + A[i+1] + A[i+2]
-        return -1
-    else:
-        return -1
+    # Write your code here:
+
+    #
 
 if __name__ == "__main__":
     print("Largest Triangle Challenge")

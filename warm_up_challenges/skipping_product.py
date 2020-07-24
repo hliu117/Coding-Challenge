@@ -12,15 +12,7 @@
 #   - An integer representing the length of the longest word
 def skipping_product(A):
     # Write your code here:
-    output = []
-    product = 1
-    for num in A:
-        product *= num
 
-    for num in A:
-        output.append(product/num)
-    
-    return output
     #
 
 if __name__ == "__main__":

@@ -12,15 +12,9 @@
 # Outputs in the order specified
 #   - A list of factor pairs
 def factorize(x):
-    factor_pairs = []
-    y = 2
-    while y <= x**(1/2):
-        if x%y == 0:
-            factor_pairs.append((y,int(x/y)))
-        y += 1
-    if len(factor_pairs) == 0:
-        return "prime"
-    return factor_pairs
+    # Write your code here:
+
+    #
 
 if __name__ == "__main__":
     print("Factors Challenge")
