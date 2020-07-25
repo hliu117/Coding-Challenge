@@ -10,7 +10,7 @@
 # Outputs
 #   - Duplicate number in the list of ints 
 def findDuplicate(nums):
-    # Write your code here
+    # Write your code here:
 
     #
 

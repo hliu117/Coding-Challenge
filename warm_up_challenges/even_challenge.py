@@ -8,7 +8,10 @@
 #   - True or False depending if the number is even or not
 def is_even(x):
     # Write your code here:
-
+    if x%2 == 1:
+        return False
+    else:     
+        return True
     #
 
 if __name__ == "__main__":

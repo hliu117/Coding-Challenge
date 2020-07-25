@@ -11,7 +11,7 @@
 # Outputs in the order specified
 #   - the single combined list
 def alternateConcat(a,b):
-    # Write your code here
+    # Write your code here:
 
     #
 
